@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>DolynaINFO</title>
+<!--  Библеотека jquery -->
+<script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// Плавный скролл по якорям
+			$('a[href^="#"]').click(function () { 
+			    elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top;
+				if($.browser.safari){
+				$('body').animate( { scrollTop: destination }, 1000 );
+				} else {
+			    	$('html').animate( { scrollTop: destination }, 1000 );
+				}
+				return false;
+		   });
+		});
+	</script>
+<!-- Template from www.freeclipart.nu -->
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<style type="text/css">
+<!--
+.link { font-size: 10px; text-decoration: none}
+A:active { color: #cc4422}
+A:link { color: #cc4422}
+A:visited { color: #cc4422}
+A:hover { color: #000000}
+body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+-->
+p {
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+}
+</style>
+</head>
+ <body>
+
+<center><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><div id="top" name="top"></div>ІНСТРУКЦІЯ КОРИСТУВАЧА</font></center><br><br>
+  <table width="100%" border="1">
+   <tr>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#1punkt">Компоненти ПЗ   </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#2punkt">Встановлення ПЗ   </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#3punkt">Налаштування ПЗ   </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#4punkt">Базові функції   </a></font></th>
+   </tr>
+ </table>
+<br><br>
+<font size="5" face="Verdana, Arial, Helvetica, sans-serif"><div id="1punkt" name="1punkt"></div>Компоненти ПЗ  (<a href="#top">^Наверх</a>)</font><br><br>
+<font size="4" face="Verdana, Arial, Helvetica, sans-serif">Програма розроблена на мові програмування Java у середовищі розробки Eclipse Android Neon і може експлуатуватися під управлінням сімейства операційних систем Android для версій 4.0, 4.0.3, 4.1.2, 4.3.1, 4.4.2, 5.0.1. Під час проектування підсистем відбулося поєднання об’єктно - орієнтованого підходу з процедурно - орієнтованим. Також було розроблено базу даних в якій зберігається інформація про розклад руху автобусів та поїздів, які відправляються зі станції Долина, список таксі, які надають свої послуги в Долинському районі, список кафе з атрибутами, які знаходяться в місті Долина. Та телефонний довідник закладів Долинщини. Для роботи програми необхідний виконавчий файл DolunaInfo.apk. Також було розроблено базу даних в SQLite, довідку програми, яка написана на html з використанням елементів JavaScript.</font><br><br><hr>
+<br><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><div id="2punkt" name="2punkt"></div>Встановлення ПЗ  (<a href="#top">^Наверх</a>)</font><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><br><br>
+Для встановлення додатку вам потрібно зайти в Google Play за посиланням <a href="https://play.google.com/store?hl=ru">play.google.com/stupid_animals</a>. Додаток призначений тільки для операційної системи Android для версій 4.0, 4.0.3, 4.1.2, 4.3.1, 4.4.2, 5.0.1.</font><br><br><hr>
+<br><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><div id="3punkt" name="3punkt"></div>Налаштування ПЗ   (<a href="#top">^Наверх</a>)</font><br><br>Для того, щоб перейти до налаштувань, потрібно в меню натуснути на пунтку «Налаштування»(рис. 23).<br><br></font>
+<img src="images/7.jpg" />
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Рис. 1. Кнопка "Налаштування"</p><hr>
+<br><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><div id="4punkt" name="4punkt"></div>Базові функції   (<a href="#top">^Наверх</a>)</font><br>
+
+<br>
+<table width="100%" border="1">
+   <tr>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#bus">Розклад руху автобусів </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#taksi">Таксі Долини</a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#poizd">Розклад руху поїздів  </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#kafe">Кафе Долини  </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#phone">Телефонний довідник  </a></font></th>
+    <th><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><a href="#karta">Карта міста  </a></font></th>
+   </tr>
+ </table>
+<ul>
+     <li> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><div id="bus" name="bus"></div>Розклад руху автобусів:&nbsp;&nbsp;&nbsp;<a href="#4punkt">(Базові функції)</a><br><br>Для того щоб переглянути розклад руху автобусів які вирушають з станції Долина потрібно натиснути кнопку в меню(рис. 1). Після цього перед вами з'являється список напрямків автобусів(рис. 2), вибираючи потрібний вам напрям Ви зможете вибрати потрібний вам маршут та переглянути час його відправлення з станції Долина</font><br>
+          <br><img src="images/1.jpg" />
+<img src="images/1_1.jpg" /> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Розклад руху автобусів</p></li>
+     <li><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><div id="taksi" name="taksi"></div>Таксі:&nbsp;&nbsp;&nbsp;<a href="#4punkt">(Базові функції)</a></font><br>
+          <br><img src="images/2.jpg" />
+<img src="images/2_1.jpg" />
+<img src="images/2_2.jpg" /> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Розклад руху автобусів&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів"</p></li></li>
+     <li><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><div id="poizd" name="poizd"></div>Розклад руху поїздів:&nbsp;&nbsp;&nbsp;<a href="#4punkt">(Базові функції)</a></font><br>
+          <br><img src="images/3.jpg" />
+<img src="images/3_1.jpg" />
+<img src="images/3_2.jpg" /> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Розклад руху автобусів&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів"</p></li></li>
+     <li><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><div id="kafe" name="kafe"></div>Кафе:&nbsp;&nbsp;&nbsp;<a href="#4punkt">(Базові функції)</a></font><br>
+          <br><img src="images/4.jpg" /><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів" </p></li>
+  
+     <li><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><div id="phone" name="phone"></div>Телефонний довідник:&nbsp;&nbsp;&nbsp;<a href="#4punkt">(Базові функції)</a></font><br>
+          <br><img src="images/5.jpg" /><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів" </p></li>
+
+     <li><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><div id="karta" name="karta"></div>Карта міста:&nbsp;&nbsp;&nbsp;<a href="#4punkt">(Базові функції)</a></font><br>
+          <br><img src="images/6.jpg" />&nbsp;<img src="images/6_1.jpg" /><br><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Кнопка "Розклад руху автобусів" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Рис. 2. Розклад руху автобусів
+
+     <li>Крыса Лариса</li>
+</ul>
+
+ </body>
+</html>
